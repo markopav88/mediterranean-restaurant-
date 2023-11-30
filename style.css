@@ -7,7 +7,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-color: #fff9fd;
+    background-color: #d5cfff;
 }
 
 @keyframes fadeInModal {
@@ -18,7 +18,7 @@ body {
 
 .welcome-container {
     text-align: center;
-    max-width: 800px;
+    max-width: 1111px;
     margin: 0 auto;
     opacity: 0; /* Set initial opacity to 0 */
     animation: fadeInModal 2s ease-out forwards; /* Apply fadeInModal to welcome-container */
@@ -87,8 +87,9 @@ button {
     transition: transform 0.3s ease-out;
 }
 
-button:hover {
-    transform: scale(1.1    );
+.button:hover,
+.button:hover img {
+    transform: scale(1.1);
 }
 
 
