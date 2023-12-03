@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 444vh;
     background-color: #d5cfff;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .welcome-container {
     text-align: center;
-    max-width: 1111px;
+    max-width: 888px;
     margin: 0 auto;
     opacity: 0; /* Set initial opacity to 0 */
     animation: fadeInModal 2s ease-out forwards; /* Apply fadeInModal to welcome-container */
@@ -29,7 +29,7 @@ body {
     font-style: italic;
     transform: skew(-15deg);
     display: inline-block;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #ffffff;
     padding-bottom: 10px;
 }
 
@@ -87,9 +87,17 @@ button {
     transition: transform 0.3s ease-out;
 }
 
+.button,
+.button img {
+    transition: transform 0.3s ease; /* Adjust the duration and timing function as needed */
+  
+    display: inline-block;
+}
+
 .button:hover,
 .button:hover img {
-    transform: scale(1.1);
+    transform: scale(0.95);
+    opacity: .5;
 }
 
 
@@ -103,5 +111,24 @@ button {
     height: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.8);
+}
+.apbuttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.mcbuttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.dbuttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
 }
 
