@@ -131,4 +131,6 @@ button {
     align-items: flex-start;
     margin-top: 20px;
 }
-
+.hidden {
+    display: none;
+  }
