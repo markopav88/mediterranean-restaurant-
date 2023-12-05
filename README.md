@@ -1,4 +1,4 @@
-# Mediterranean-restaurant-Mediterranean Restaurant Web App Introduction Welcome to the Mediterranean Restaurant project, a web application designed to showcase our delightful Mediterranean cuisine.
+ Welcome to the Mediterranean Restaurant project, a web application designed to showcase our delightful Mediterranean cuisine.
 
 
 This project is built using HTML, CSS, and JavaScript, providing a rich user interface and interactive experience. 
