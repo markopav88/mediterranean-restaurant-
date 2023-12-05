@@ -29,19 +29,18 @@
         </div>
         <div class="button-container">
             <div class="button">
-                <img src="https://i.postimg.cc/9QK9hsVf/button-our-story.png" alt="Our Story">
-                <p>Our Story</p>
-                <p>A random idea turned into a reality when we decided to band together and completely go forward with the plan of opening a restaurant.</p>
+                <img src="https://i.postimg.cc/9QK9hsVf/button-our-story.png" alt="Our Story" onclick="toggleText()">
+                <p id="ourStoryText" style="display: none;">A random idea turned into a reality when we decided to band together and completely go forward with the plan of opening a restaurant</p>
             </div>
-            <div class="button">
-                <img src="https://i.postimg.cc/7ZfzjwFc/button-our-philosophy.png" alt= "Our Philosophy">
-                <p>Our Philosophy</p>
-                <p>We believe that food brings people together and makes them happy. We also think trying new foods is something everybody should get into.</p>
+
+            <div class="button" onclick="toggleText('ourPhilosophyText')">
+                <img src="https://i.postimg.cc/7ZfzjwFc/button-our-philosophy.png" alt="Our Philosophy">
+                <p id="ourPhilosophyText" style="display: none;">We believe that food brings people together and makes them happy. We also think trying new foods is something everybody should get into.</p>
             </div>
-            <div class="button">
+            
+            <div class="button" onclick="toggleText('ourMissionText')">
                 <img src="https://i.postimg.cc/NfGm71pQ/button-our-mission.png" alt="Our Mission">
-                <p>Our Mission</p>
-                <p>Our mission is to deliver the best Mediterranean food experience to our customers and support our community.</p>
+                <p id="ourMissionText" style="display: none;">Our mission is to deliver the best Mediterranean food experience to our customers and support our community</p>
             </div>
         </div>
     </div>
