@@ -22,3 +22,21 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+// add alert to confirm the resirvation. 
+document.addEventListener("DOMContentLoaded", function () {
+    const reservationForm = document.getElementById('reservationForm');
+  
+    reservationForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevents the form from submitting (for demonstration purposes)
+  
+      // You can access the form data here and perform actions (e.g., display a confirmation message)
+      const formData = new FormData(reservationForm);
+      const reservationDetails = Object.fromEntries(formData.entries());
+  
+      console.log('Reservation details:', reservationDetails);
+  
+      // For demonstration purposes, display a confirmation message
+      alert('Reservation booked! We will get in touch shortly.');
+      reservationForm.reset(); // Reset the form after submission (optional)
+    });
+  });
