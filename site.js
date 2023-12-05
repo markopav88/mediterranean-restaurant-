@@ -20,7 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
         if (event.key === 'Escape') {
             closeAboutUsModal();
         }
+        
     });
+    
+    
 });
 // add alert to confirm the resirvation. 
 document.addEventListener("DOMContentLoaded", function () {
@@ -60,4 +63,7 @@ function toggleText(id) {
     } else {
         text.style.display = 'none';
     }
+    
+    
+    
 }

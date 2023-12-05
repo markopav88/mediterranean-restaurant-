@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 500vh;
+    height: 550vh;
     background-color: #d5cfff;
     background-image: url('https://i.postimg.cc/KvWsKQgQ/backroundnewtest.png'); /* Replace 'path/to/backroundnew.png' with the actual path to your image */
     background-size: cover; /* This ensures the image covers the entire background */
@@ -171,4 +171,24 @@ h1.contact{
     font-weight: bold;
     color: magenta;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1.LOCATION{
+    text-align: center;
+    font-weight: bold;
+    color: magenta;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1.slanted-text-LOCATION{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: magenta;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button-container .button:nth-child(4) {
+    /* Adjust styles as needed */
+    background-color: #4CAF50;
+    color: white;
+    
 }
