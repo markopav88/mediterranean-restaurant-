@@ -192,3 +192,60 @@ h1.slanted-text-LOCATION{
     color: white;
     
 }
+
+.catering {
+    color: magenta;
+    font-size: 40px;
+}
+
+.catering-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    max-width: 800px; 
+    word-wrap: break-word;
+    color: #ffffff;
+}
+
+.boxes-container {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    height: 160px; 
+    width: 245px;
+    background-color: rgb(220, 72, 220);
+    margin: 10px; 
+    border-radius: 5px; 
+    padding: 15px;
+}
+
+.box-title {
+    font-size: 20px;
+    color:black;
+}
+
+.box-text {
+    color: black;
+}
+
+.box-button {
+    margin-top: auto; 
+    border: 1px solid #4d379e; 
+    border-radius: 5px; 
+    padding: 8px 15px; 
+    background-color: transparent; 
+    color: #4d379e; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.box-button:hover {
+    background-color: #4d379e; 
+    color: #ffffff; 
+}
