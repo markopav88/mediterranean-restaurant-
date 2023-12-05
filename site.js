@@ -40,3 +40,24 @@ document.addEventListener("DOMContentLoaded", function () {
       reservationForm.reset(); // Reset the form after submission (optional)
     });
   });
+
+  let textVisibility = {
+    'ourStoryText': false,
+    'ourPhilosophyText': false,
+    'ourMissionText': false
+};
+
+function toggleText(id) {
+    if (id === undefined) {
+        id = 'ourStoryText'; // Default to 'ourStoryText' if no id is provided
+    }
+
+    const text = document.getElementById(id);
+    textVisibility[id] = !textVisibility[id];
+
+    if (textVisibility[id]) {
+        text.style.display = 'block';
+    } else {
+        text.style.display = 'none';
+    }
+}
