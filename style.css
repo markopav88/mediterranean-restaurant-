@@ -6,8 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 600vh;
+    height: 500vh;
     background-color: #d5cfff;
+    background-image: url('https://i.postimg.cc/KvWsKQgQ/backroundnewtest.png'); /* Replace 'path/to/backroundnew.png' with the actual path to your image */
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-position: center; /* This centers the image */
+    background-attachment: fixed; /* This makes the background fixed while scrolling */
 }
 
 @keyframes fadeInModal {
@@ -20,6 +24,7 @@ body {
     text-align: center;
     max-width: 888px;
     margin: 0 auto;
+    color: #ffffff;
     opacity: 0; /* Set initial opacity to 0 */
     animation: fadeInModal 2s ease-out forwards; /* Apply fadeInModal to welcome-container */
 }
@@ -46,7 +51,7 @@ body {
 
 .sub-text {
     font-size: 18px;
-    color: #666;
+    color: #ffffff;
     font-style: italic;
     margin-bottom: 20px;
 }
