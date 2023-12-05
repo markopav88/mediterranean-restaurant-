@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 444vh;
+    height: 600vh;
     background-color: #d5cfff;
 }
 
@@ -134,3 +134,10 @@ button {
 .hidden {
     display: none;
   }
+
+h1.contact{
+    text-align: center;
+    font-weight: bold;
+    color: magenta;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
