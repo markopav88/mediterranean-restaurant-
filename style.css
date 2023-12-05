@@ -143,6 +143,22 @@ button {
     justify-content: center;
     align-items: center; 
   }
+  .reservation-form h2 {
+    background-color: #de00ae;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .reservation-form {
+    background-color: #f2f2f2; /* Background for the reservation section */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: -5px;
+  }
 
 
 h1.contact{
